@@ -44,6 +44,10 @@ for i in range(4):
     forward(100)
     left(90)
 
+goto(250, 150)
+color("black")
+write("Daniel Willoughby", align='center', font=("Verdana", 10))
+
 goto(116, 116)
 write("Reilly", align="center", font=("papyrus", 13, "bold"))
 done()
