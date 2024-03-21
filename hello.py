@@ -35,6 +35,15 @@ goto(123,123)
 color("dodgerblue")
 write("Corey McCormick", align='center', font=("Comic Sans MS", 14))
 
+goto(200, 45)
+shape("turtle")
+color("red")
+write("Kim", align='center', font=("Arial", 12, "normal"))
+pendown()
+for i in range(4):
+    forward(100)
+    left(90)
+
 goto(116, 116)
 write("Reilly", align="center", font=("papyrus", 13, "bold"))
 done()
