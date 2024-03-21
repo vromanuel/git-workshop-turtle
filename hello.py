@@ -9,6 +9,6 @@ up()
 goto(300,-200)
 color("pink")
 down()
-write("Alex O'Donnell", align="center", font=("Comic Sans MS", 16))
+write("Alex", align="center", font=("Comic Sans MS", 16))
 
 done()
