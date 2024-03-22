@@ -8,20 +8,19 @@ write("CODE NETWORK", align="center", font=("Arial", 24, "bold"))
 goto(250,-170)
 color("coral")
 write("Navaneeth", align='center', font=("Helvetica", 15))
-hideturtle()
 
-up()
 goto(300,-200)
 color("pink")
-down()
 write("Alex", align="center", font=("Comic Sans MS", 16))
 
 goto (88,88)
 color("green")
 write("Ggoofy", align="center", font=("Times New Roman", 24, "bold"))
+pendown()
 for num in (range(100)):
     forward(10)
     left(10)
+penup()
 
 goto(-300,0)
 color("green")
@@ -39,10 +38,12 @@ goto(200, 45)
 shape("turtle")
 color("red")
 write("Kim", align='center', font=("Arial", 12, "normal"))
+
 pendown()
 for i in range(4):
     forward(100)
     left(90)
+penup()
 
 goto(250, 150)
 color("black")
