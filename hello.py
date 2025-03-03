@@ -52,3 +52,7 @@ write("Daniel Willoughby", align='center', font=("Verdana", 10))
 goto(116, 116)
 write("Reilly", align="center", font=("papyrus", 13, "bold"))
 done()
+
+goto(150, 150)
+write("Manny", align="center", font=("comic sans", 13, "bold"))
+done()
